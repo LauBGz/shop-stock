@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/logoGithub.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Tienda
+        </a>
+    </nav>
+    <!--Fin navbar-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--Filtros-->
+            <div class="col-sm-12 col-md-2">
+                <div class="filtros">
+                    <!--Input categoria-->
+                    <div class="input-group mb-3">
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>Selecciona...</option>
+                            <option value="Electrodomesticos">Electrodomesticos</option>
+                            <option value="IT">IT</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Notebook">Notebook</option>
+                        </select>
+                    </div>
+                    <!--Fin input categoria-->
+                    <!--Input nombre-->
+                    <div class="input-group mb-3">
+                        <input type="text" class="inputName form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon2">
+                    </div>
+                    <!--Fin input nombre-->
+                    <!--Input codigo-->
+                    <div class="input-group mb-3">
+                        <input type="text" class="inputCode form-control" placeholder="Codigo" aria-label="Codigo" aria-describedby="basic-addon2">
+                    </div>
+                    <!--Fin input codigo-->
+                    <!--Input precio min-->
+                    <div class="input-group mb-3">
+                        <input type="text" class="inputMin form-control" placeholder="Min" aria-label="Min" aria-describedby="basic-addon2">
+                    </div>
+                    <!--Fin precio min--->
+                    <!--Input precio max-->
+                    <div class="input-group mb-3">
+                        <input type="text" class="inputMax form-control" placeholder="Max" aria-label="Max" aria-describedby="basic-addon2">
+                    </div>
+                    <!--Fin precio max--->    
+                    <div class="buscar" >
+                        <button type="button" class="botonBuscar btn btn-dark">Buscar</button>                
+                    </div>
+                </div>
+            </div>
+            <!--Fin filtros-->  
+            <!--Resultados-->
+            <div class="col-sm-12 col-md-10">
+                <div class="resultados">
+                </div>
+            </div>
+            <!--Fin resultados-->  
+        </div>
+    </div>
+    <!--Javascript-->
+    <script src="index.js"></script>
+</body>
+</html>

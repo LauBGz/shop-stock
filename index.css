@@ -1,0 +1,36 @@
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.filtros {
+  margin-top: 20px;
+}
+
+.errorBusca{
+  margin-top: 20px;
+}
+
+#myTable{
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#myTrHeader {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  text-align: left;
+  background-color:grey;
+  color: white;
+}
+
+#myTrHeader th{
+  padding-left: 5px;
+}
+
+#myTable td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
